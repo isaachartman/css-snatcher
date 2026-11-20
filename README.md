@@ -2,6 +2,8 @@
 
 A small Chrome extension that turns any element's computed styles into clean, minimal CSS. Click an element and get a handful of meaningful declarations instead of a 400-line computed-style dump.
 
+<p align="center"><img src="docs/screenshot.png" alt="CSS Snatcher panel showing clean CSS for a picked card" width="720"></p>
+
 ## Features
 
 - Click any element on the page; a panel shows its CSS, ready to **Copy**
