@@ -441,8 +441,8 @@
     .panel,.banner,.hl{--body:#727272;--body-edge:#5c5c5c;--on-body:#fff;--on-body-soft:#efefef;--panel:#e6e4de;--field:#f2f0eb;
       --ink:#161616;--ink-soft:#55544f;--line:#9d9c96;--key-fg:#f2f0ea;--orange:#ff4a0f;--lcd:#0d0d0d;--lcd-fg:#f4f4ef;--lcd-dim:#77766f;
       --label:"Helvetica Neue",Helvetica,Arial,sans-serif;--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
-    .panel{position:fixed;right:16px;bottom:16px;width:min(360px,calc(100vw - 32px));padding:10px;background:var(--body);color:var(--on-body);
-      box-shadow:0 14px 40px rgba(0,0,0,.4);font:11px/1.3 var(--label);letter-spacing:.06em;pointer-events:auto}
+    .panel{position:fixed;right:12px;top:0;width:min(360px,calc(100vw - 24px));max-height:100vh;overflow:auto;padding:10px;background:var(--body);color:var(--on-body);
+      box-shadow:0 14px 40px rgba(0,0,0,.4);border-radius:0 0 8px 8px;font:11px/1.3 var(--label);letter-spacing:.06em;pointer-events:auto}
     .panel[hidden],.banner[hidden],.hl[hidden]{display:none}
     header{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--panel);border-top:6px solid var(--body-edge);color:var(--ink)}
     h1{margin:0;font-size:18px;font-weight:300;letter-spacing:.02em;line-height:1;white-space:nowrap}
