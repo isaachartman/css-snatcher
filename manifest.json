@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Computed-to-Clean CSS Snatcher",
+  "version": "1.0.0",
+  "description": "Click any element and snatch its computed styles as clean, minimal CSS: defaults and inherited noise stripped, shorthands collapsed.",
+  "permissions": ["activeTab", "scripting", "storage", "clipboardWrite"],
+  "background": { "service_worker": "background.js" },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": {
+    "default_title": "Snatch CSS (Alt+Shift+S)",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  },
+  "commands": {
+    "toggle-snatcher": {
+      "suggested_key": { "default": "Alt+Shift+S", "mac": "Alt+Shift+S" },
+      "description": "Toggle the CSS Snatcher picker"
+    }
+  }
+}
